@@ -41,7 +41,7 @@ public class Main {
             total_dice += die_num;
         }
         System.out.println("Zusammenfassung: Anzahl der Würfe = " + num_Throws +
-                "   Summe = " + (int) total_dice + "  Durschnitt = " + (double) (total_dice / num_Throws));
+                "   Summe = " + (int) total_dice + "  Durschnitt = " +  (total_dice / num_Throws));
     }
 
     public static void flip_coin(int num_Throws) {
