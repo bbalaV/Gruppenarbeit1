@@ -1,7 +1,9 @@
 package com.company;
 import java.util.*;
 public class Main {
-//test
+    /*
+    Team Salman	Ugras, Marcel Stauffiger, Varshan Balasunderam
+     */
     public static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -60,7 +62,7 @@ public class Main {
     }
 
     public static int get_int_input() {
-        int num_Throws = 0;
+        int num_Throws;
         String input_value;
         while (true) {
             input_value = input.nextLine();
@@ -80,7 +82,7 @@ public class Main {
     public static boolean isInt(String strNum) {
         try {
             int d = Integer.parseInt(strNum);
-        } catch (NumberFormatException | NullPointerException nfe) {
+        } catch (NumberFormatException e) {
             return false;
         }
         return true;
