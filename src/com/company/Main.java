@@ -1,9 +1,10 @@
 package com.company;
 import java.util.*;
+/*
+Team Salman	Ugras, Marcel Stauffiger, Varshan Balasunderam
+ */
 public class Main {
-    /*
-    Team Salman	Ugras, Marcel Stauffiger, Varshan Balasunderam
-     */
+
     public static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
